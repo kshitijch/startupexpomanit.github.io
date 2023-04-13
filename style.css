@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.background-img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+.navbar div img{
+    width: 80px;
+    
+}
+.navbar-links{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    
+}
+.navbar-links a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 22px;
+    color: white;
+
+}
+.navbar-links a:hover{
+    color: #e8a220;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.esummit{
+    text-align: center;
+}
+.esummit h2{
+    position: relative;
+    color: #e8a220;
+    bottom: 150px;
+    font-size: 30px;
+}
+.esummit h1{
+    position: relative;
+    color: white;
+    bottom: 120px;
+    font-size: 70px;
+    animation: zoom 0.9s ;
+}
+@keyframes zoom {
+    from{
+        opacity: 0.2;
+        font-size: 10px;
+    }
+    to{
+        opacity: 1;
+        font-size: 70px;
+    }
+    
+}
+.register-btn{
+    
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        padding: 15px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        transition: all 0.5s ease-in-out;
+}
+.register-btn:hover{
+    color: #e8a220;
+    transform: scale(1.3);
+    border-color: #e8a220;
+
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(22, 21, 21, 0.921);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.about-us h1{
+    color: #e8a220;
+    font-size: 35px;
+    font-weight: bolder;
+    word-spacing: 1.1em;
+}
+ .para{
+    width: 70%;
+   text-align: center;
+   
+   justify-content: center;
+   
+}
+.about-us p{
+    color: aliceblue;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: justify;
+    line-height: 1.7em;
+    font-size: 25px;
+    margin-top: 60px;    
+    word-spacing: 0.5em;
+}
+.why-expo{
+    background-color: rgba(22, 21, 21, 0.921);
+   text-align: center;
+   padding-bottom: 100px;
+    
+}
+.expohead h1{
+    color: #e8a220;
+   padding-top: 60px;
+   padding-bottom: 100px;
+   font-size: 35px;
+   word-spacing: 1.1em;
+}
+
+.card{
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+  
+   
+}
+.card1{
+    display: flex;
+    justify-content: center;
+}
+.card h1 {
+    color: whitesmoke;
+    padding-bottom: 30px;
+    
+
+}
+.card h3{
+    color: whitesmoke;
+    font-weight: lighter;
+    word-spacing: 2px;
+    line-height: 1.4rem;
+}
+
+.footer{
+    
+    background-color: rgba(22, 21, 21, 0.921);
+    
+
+}
+.footer p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.socials{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    align-content: center;
+}
+.icon{
+    width: 40px;
+    object-fit: contain;
+}
+
